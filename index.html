@@ -503,8 +503,7 @@
                 <use href="./images/icons.svg#icon-person"></use>
               </svg>
             </div>
-        </form>
-        <form>
+          </div>
           <div class="modal-box">
             <label class="modal-label" for="user-name">Phone</label>
             <div class="modal-input-wrapper">
@@ -518,8 +517,7 @@
                 <use href="./images/icons.svg#icon-phone"></use>
               </svg>
             </div>
-        </form>   
-        <form>
+          </div>
           <div class="modal-box">
             <label class="modal-label" for="user-email">Email</label>
             <div class="modal-input-wrapper">
@@ -533,19 +531,36 @@
                 <use href="./images/icons.svg#icon-email"></use>
               </svg>
             </div>
-        </form>  
-        <form>
-          <div class="modal-box">
-            <label class="modal-label" for="user-email">Comment</label>
-            <div class="modal-input-wrapper">
-              <input
-                type="comment"
-                id="user-comment"
-                name="user-comment"
-                class="modal-input"
-              />
-            </div>
-        </form>  
+          </div>
+          <div>
+            <label for="user-comment" class="modal-label"> Comment </label>
+            <textarea
+              name="user-comment"
+              class="form-text-area"
+              id="user-comment"
+              rows="5"
+              placeholder="Text input"
+            ></textarea>
+          </div>
+          <div class="modal-check">
+            <input
+              class="visually-hidden standart-checkbox"
+              type="checkbox"
+              id="user-agreement"
+              name="user-agreement"
+            />
+            <label
+              for="user-agreement"
+              class="modal-label modal-label-agreement"
+              ><span class="form-checkbox"
+                ><svg class="" width="10" height="8">
+                  <use href="./images/icons.svg#icon-Vector"></use></svg></span
+              >I accept the terms and conditions of the
+              <a href="" class="link-privasy">Privacy Policy</a>
+            </label>
+          </div>
+          <button class="model-button" type="submit">Send</button>
+        </form>
       </div>
     </div>
     <script src="./js/model.js"></script>
