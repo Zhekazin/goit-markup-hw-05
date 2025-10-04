@@ -481,15 +481,15 @@
         <div class="footer-email">
           <p class="futer-title-subscribe">Subscribe</p>
           <form class="footer-form">
-            <label
+            <labe class="footer-subscribe-label" 
               ><input
                 type="email"
                 name="eser-email"
                 placeholder="E-mail"
                 class="footer-subscribe-input"
-            /></label>
+            /></labe>
             <button class="footer-subscribe-button" type="submit">
-              subscribe
+              Subscribe
               <svg class="footer-icon-send" width="24" height="24">
                 <use href="./images/icons.svg#icon-send"></use>
               </svg>
@@ -526,7 +526,7 @@
             <label class="modal-label" for="user-name">Phone</label>
             <div class="modal-input-wrapper">
               <input
-                type="phone"
+                type="tel"
                 id="user-phone"
                 name="user-phone"
                 class="modal-input"
@@ -550,7 +550,7 @@
               </svg>
             </div>
           </div>
-          <div>
+          <div class="modal-comment-box">
             <label for="user-comment" class="modal-label"> Comment </label>
             <textarea
               name="user-comment"
@@ -564,12 +564,10 @@
             <input
               class="visually-hidden standart-checkbox"
               type="checkbox"
-              id="user-agreement"
-              name="user-agreement"
+              id="user-privacy" value="true"
+              name="user-privacy"
             />
-            <label
-              for="user-agreement"
-              class="modal-label modal-label-agreement"
+            <label for="user-privacy" class="modal-label modal-label-agreement"
               ><span class="form-checkbox"
                 ><svg class="" width="10" height="8">
                   <use href="./images/icons.svg#icon-Vector"></use></svg></span
